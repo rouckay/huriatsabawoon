@@ -1,0 +1,401 @@
+/*------------------------------------------------------------------------
+* Copyright (c) 2008-2013 ZooTemplate. All Rights Reserved.
+* @license - Copyrighted Commercial Software
+* Author: ZooTemplate
+* Websites:  http://www.zootemplate.com
+-------------------------------------------------------------------------*/
+
+/*Narrow Browser Windows and Smartphones in both orientations*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    #bd{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    div.mod-languages{
+        text-align: center;
+    }
+    #zt-footer-inner{
+        text-align: center;
+    }
+    #zt-social > div{
+        float: none !important;
+        padding-top: 15px;
+    }
+    .floatleft.width25, .floatleft.width33, .floatleft.width40, .floatright.width60, .floatleft.width50, .floatleft.width30 {
+        width: 100% !important;
+    }
+    #zt-top-menu ul{
+        margin: 0 auto;
+        text-align: center;
+        float: none!important;
+    }
+    #zt-top-menu ul li{
+        display: inline;
+        float: none !important;
+        padding: 0 10px;
+        height: 30px;
+        line-height: 30px;
+    }
+    #zt-banner img{
+        width: 100%;
+    }
+    #zt-userwrap7 h3.zt-title{
+        display: block;
+        float: none !important;
+    }
+    #zt-logo-image{
+        text-align: center;
+    }
+    #zt-social,
+    .zt-shipping{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    div.category-view .category{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #zt-top-action{
+        position: static !important;
+        display: table;
+        margin: 0 auto;
+    }
+    #zt-top-action-inner {
+        position: relative;
+    }
+    #zt-top-product .zt-item{
+        margin-bottom: 20px;
+    }
+}
+/*Ipad Portrait*/
+@media (min-width: 769px) and (max-width: 979px) {
+    .zt-header-text p{
+        height: 33px !important;
+    }
+    #zt-highlight .element {
+        height: auto!important;
+        width: 30.5% !important;
+    }
+    #zt-userwrap7 h3.zt-title{
+        display: block;
+        float: none !important;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1170px) {
+    .zt-header-text p{
+        height: 45px !important;
+    }
+    #zt-highlight .element {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+}
+@media only screen and (min-width: 0px) and (max-width: 1000px){
+    .pricing_box h2{
+        font-size: 35px !important;
+    }
+    .pricing_box .header span{
+        font-size: 12px !important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    div.desc_part .zt-action input.addtocart-button{
+        background-position: 0 0 !important;
+    }
+    div.desc_part .zt-action input.addtocart-button:hover, div.desc_part .zt-action input.addtocart-button:active, div.desc_part .zt-action input.addtocart-button:focus{
+        background-position: 0 100% !important;
+    }
+    div.desc_part .zt-action a.product-details{
+        background-position: -213px 0 !important;
+    }
+    div.desc_part .zt-action a.product-details:hover, div.desc_part .zt-action a.product-details:active, div.desc_part .zt-action a.product-details:focus{
+        background-position: -213px 100% !important;
+    }
+    #zt-highlight .element{
+        height: auto !important;
+        margin-left: 6%;
+        margin-right: 6%;
+        width: 34.5% !important;
+    }
+    .zt-header-text p{
+        height: 33px !important;
+    }
+    table.cart-summary tr th{
+        padding: 6px 15px !important;
+    }
+    .rtl #zt-top-action #zt-cart-inner,
+    .rtl #zt-top-action #zt-searchform-inner{
+        right: -20px;
+        left: auto;
+        width: 100%;
+    }
+    .rtl #zt-top-action .vmcart-border,
+    .rtl #zt-searchform-inner .search-border{
+        width: 100%;
+    }
+    .rtl #zt-searchform-inner .search-border:before{
+        right: 100px;
+    }
+    .rtl #zt-top-action .vmcart-border:before{
+        right: 62px !important;
+    }
+    #zt-userwrap7 h3.zt-title{
+        width: 100%;
+    }
+    .scroller-slider{
+        margin: 0 10%;
+        width: 80% !important;
+    }
+    ul.tabs li a{
+        padding: 0 5px !important;
+    }
+    div.itemFacebookButton {
+        margin-right:5px !important;}
+    .k2CalendarBlock table.calendar tr td{
+        padding: 0 !important;
+    }
+    .zt-newsletter input[type="email"]{
+        width: 150px;
+    }
+    #form-login-username input,
+    #form-login-password input{
+        width: 100%;
+    }
+    #com-form-login-password,
+    #com-form-login-remember{
+        margin-left: 10px;
+    }
+    div.order-view + form input#remember,
+    #com-form-login-remember input#remember{
+        margin-top: 10px !important;
+    }
+    #com-form-order-submit input{
+        margin-top: 28% !important;
+        margin-left: 10px;
+    }
+    #com-form-order-pass{
+        margin-left: 10px;
+    }
+
+    .orderlistcontainer{
+        margin: 0 5px 0 0 !important;
+    }
+    div.orderby-displaynumber div.title{
+        width: 40px !important;
+    }
+    .additional-images img{
+        width: 60px !important;
+        padding: 0 !important;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .scroller-slider {
+        margin: 0 11%;
+        width: 85% !important;
+    }
+    .additional-images img{
+        padding: 0 !important;
+        width: 83px !important;
+   }
+}
+/* Landscape phones and down */
+@media (max-width: 500px) {
+    div.desc_part .zt-action input.addtocart-button{
+        background-position: 45px 0 !important;
+    }
+    div.desc_part .zt-action a.product-details{
+        background-position: -177px 0 !important;
+    }
+    .itemAuthorContent{
+        width: 90% !important;
+    }
+    .itemCommentsForm .inputCommentName,
+    .itemCommentsForm .inputCommentEmail,
+    .itemCommentsForm .inputCommentUrl{
+        width: 90% !important;
+    }
+    #zt-position-17 h3.moduletitle{
+        text-align: center;
+    }
+    #zt-position-17 ul.weblinks,
+    #zt-position-17 ul.menu{
+        margin: 0 40px;
+    }
+    #zt-userwrap7{
+        text-align: center;
+    }
+    #zt-social{
+        float: none!important;
+    }
+    #zt-userwrap7 h3.zt-title{
+        text-align: center !important;
+    }
+    #zt-userwrap7 input[type="text"], #zt-userwrap7 input[type="password"], #zt-userwrap7 input[type="url"], #zt-userwrap7 input[type="email"]{
+        float: none !important;;
+    }
+    #zt-userwrap7 input[type="submit"]{
+        float: none !important;
+        margin-left: -10px!important;
+    }
+    #zt-highlight .element{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    #zt-position-18,
+    #zt-position-19,
+    #zt-position-20,
+    #zt-position-21,
+    #zt-position-22{
+        text-align: center;
+    }
+    #zt-logo-image{
+        text-align: center;
+    }
+    .cart-view table.cart-summary tr th:nth-child(2),
+    .cart-view table.cart-summary tr td:nth-child(2),
+    .cart-view table.cart-summary tr th:nth-child(5),
+    .cart-view table.cart-summary tr td:nth-child(5),
+    .cart-view table.cart-summary tr th:nth-child(6),
+    .cart-view table.cart-summary tr td:nth-child(6),
+    .cart-view table.cart-summary tr th:nth-child(3),
+    .cart-view table.cart-summary tr td:nth-child(3) {
+        display: none;
+    }
+    #zt-highlight .option-set li{
+        margin: 0 5px 0 0 !important;
+    }
+    #zt-highlight .ztVMProductBlock .options{
+        width: 100% !important;
+        position: static!important;
+    }
+    #zt-highlight h3.moduletitle{
+        width: 100% !important;
+    }
+    .rtl #zt-top-action #zt-cart-inner,
+    .rtl #zt-top-action #zt-searchform-inner{
+        right: 42%;
+    }
+    .rtl #zt-searchform-inner .search-border:before{
+        left: 10px !important;
+    }
+    .rtl #zt-top-action .vmcart-border:before{
+        left: 40px !important;
+        right: auto !important;
+    }
+    .scroller-slider{
+        margin: 0 13%;
+        width: 71% !important;
+    }
+    #zt-footer-menu ul{
+        margin-top: 15px;
+    }
+    div.category-view a img{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 360px) {
+    #zt-top-action #zt-cart-inner, #zt-top-action #zt-searchform-inner{
+        right: -41px !important;
+    }
+    ul.tabs li{
+        margin: 0 5px !important;
+    }
+    ul.tabs li a{
+        font-size: 70% !important;
+        padding: 0 5px !important;
+    }
+    .profile dl dd{
+        font-size: 62%;
+    }
+    #zt-highlight .element{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .rtl #zt-top-action #zt-cart-inner,
+    .rtl #zt-top-action #zt-searchform-inner{
+        right: 38px;
+    }
+    .rtl #zt-searchform-inner .search-border:before{
+        left: 15px !important;
+    }
+    .rtl #zt-top-action .vmcart-border:before{
+        left: 53px !important;
+        right: auto !important;
+    }
+    .scroller-slider {
+        margin: 0 30%;
+        width: 60% !important;
+    }
+
+    #zt-social a#facebook{
+        background-position: 50px 0 !important;
+    }
+    #zt-social a#twitter{
+        background-position: 50px -38px !important;
+    }
+    #zt-social a#google{
+        background-position: 50px -76px !important;
+    }
+    #zt-social a#rss{
+        background-position: 50px -114px !important;
+    }
+}
+@media (max-width: 320px) {
+    #searchForm input,
+    #search-form fieldset.word input{
+        width: 90px;
+    }
+    #searchForm button{
+        float: left;
+    }
+    div.terms-of-service{
+        display: inline-block !important;
+    }
+    #k2Container .itemEditLink, #k2Container .catItemEditLink{
+        left: 10px !important;
+        top: -15px !important;
+    }
+    .pricing_wrap_4 .pricing_box{
+        width: 24% !important;
+    }
+    .pricing_box h2{
+        font-size: 18px !important;
+    }
+    .pricing_box a.button{
+        padding: 0.3em 0.5em !important;
+    }
+    .pricing_box .header{
+        height: 60px !important;
+    }
+    #zt-top-action{
+        position: static!important;
+        text-align: center;
+    }
+    #zt-top-action-inner {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+    }
+    .control-buttons button{
+        margin: 0 0 10px 0 !important;
+    }
+}
+/*Medium-Wide Browser Windows*/
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+    #menusys_mega li span.no-image{
+        padding: 0 15px !important;
+    }
+    #menusys_mega li.item > a{
+        font-size: 130%;
+    }
+    article header ul li{
+        margin-right: 13px !important;
+    }
+
+}

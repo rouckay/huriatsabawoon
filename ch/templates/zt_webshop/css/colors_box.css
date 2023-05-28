@@ -1,0 +1,90 @@
+/*------------------------------------------------------------------------
+* Copyright (c) 2008-2013 ZooTemplate. All Rights Reserved.
+* @license - Copyrighted Commercial Software
+* Author: ZooTemplate
+* Websites:  http://www.zootemplate.com
+-------------------------------------------------------------------------*/
+
+ul.suggestion { border-bottom: 1px dotted #EAEAEA; float: left; list-style: none; margin: 0; padding: 10px 0; width: 100%; }
+	ul.suggestion li { background: 0; float: left; height: 35px; margin: 0 5px; padding: 0; width: 35px; }
+.rtl ul.suggestion li { float: right; }
+ul.suggestion li a { border: 1px solid #dddddd; float: left; height: 30px; margin: 4px; width: 30px; }
+	ul.suggestion li a:hover,
+ul.suggestion li.active a { border: 5px solid #dddddd; margin: 0; }
+ul.suggestion-item span { display: none; }
+select#layoutselect{
+    margin-top: 15px;
+}
+.groupitem { float: left; margin: 5px 0; width: 100%; }
+#mooRainbow { color: #000; font-size: 11px; }
+.moor-box { background: url(../images/rainbow/box.png) no-repeat 0 0; color: #FFF; font-size: 90%; height: 166px; width: 262px; }
+.moor-overlayBox { border: 1px solid #000; height: 135px; margin-left: 15px; margin-top: 15px; width: 135px; }
+.moor-slider { border: 1px solid #000; cursor: pointer; height: 135px; margin-left: 165px; margin-top: 15px; width: 10px; }
+.moor-colorBox { border: 1px solid #000; height: 20px; margin-left: 195px; margin-top: 15px; width: 50px; }
+.moor-currentColor { height: 20px; margin-left: 221px; margin-top: 16px; width: 25px; }
+.moor-okButton { background: #000; border-left-color: #f5f5f5; border-top-color: #f5f5f5; border: 1px solid #d6d6d6; color: #FFF; font-family: Tahoma; font-size: 11px; font-weight: bold; height: 22px; line-height: 22px; margin-left: 15px; margin-top: 160px; }
+#mooRainbow label { font-family: mono; }
+/* Following are just <label> */
+.moor-rLabel { margin-left: 195px; margin-top: 42px; }
+.moor-gLabel { margin-left: 195px; margin-top: 67px; }
+.moor-bLabel { margin-left: 195px; margin-top: 93px; }
+.moor-HueLabel { display: none; margin-left: 315px; margin-top: 190px; }
+span.moor-ballino { display: none; margin-left: 370px; margin-top: 190px; }
+.moor-SatuLabel { display: none; margin-left: 315px; margin-top: 215px; }
+.moor-BrighLabel { display: none; margin-left: 315px; margin-top: 240px; }
+.moor-hexLabel { margin-left: 195px; margin-top: 110px; width: 55px; }
+/* <input> */
+.moor-rInput, .moor-gInput, .moor-bInput, .moor-HueInput, .moor-SatuInput, .moor-BrighInput { margin: 0 0 0 7px; width: 30px; }
+.moor-hexInput { width: 50px; }
+.moor-cursor { background-image: url(../images/rainbow/moor_cursor.gif); height: 12px; width: 12px; }
+.moor-arrows { background-image: url(../images/rainbow/moor_arrows.gif); cursor: pointer; height: 9px; left: 157px; top: 9px; width: 28px; }
+.moor-chooseColor { height: 20px; margin-left: 196px; margin-top: 16px; width: 25px; }
+#option_btn { -moz-border-radius: 0 5px 5px 0; -moz-box-shadow: 0 0 3px #cecece; -webkit-border-radius: 0 5px 5px 0; -webkit-box-shadow: 0 0 3px #cecece; background: #fff; border-bottom: 1px solid #DBDDD8; border-radius: 0 5px 5px 0; border-right: 1px solid #DBDDD8; border-top: 1px solid #DBDDD8; box-shadow: 0 0 3px #cecece; cursor: pointer; left: 0; padding: 0; position: fixed; top: 80px; z-index: 999; }
+	#option_btn span { -moz-border-radius: 0 5px 5px 0; -webkit-border-radius: 0 5px 5px 0; background: url(../images/icon-all.png) no-repeat 0 -744px #fff; border-radius: 0 5px 5px 0; cursor: pointer; display: block; height: 138px; margin: 0 0 0 -5px; width: 45px; }
+	#option_btn.rb-actived span { -moz-border-radius: 0 5px 5px 0; -webkit-border-radius: 0 5px 5px 0; background: url(../images/icon-all.png) no-repeat 0 -615px #fff; border-radius: 0 5px 5px 0; cursor: pointer; display: block; height: 138px; margin: 0 0 0 -5px; width: 45px; }
+#option_wrapper { -moz-border-radius: 0 0 5px 0; -moz-box-shadow: 0 0 3px #cecece; -webkit-border-radius: 0 0 5px 0; -webkit-box-shadow: 0 0 3px #cecece; background: #fff; border-bottom: 1px solid #DBDDD8; border-radius: 0 0 5px 0; border-right: 1px solid #DBDDD8; border-top: 1px solid #DBDDD8; box-shadow: 0 0 3px #cecece; color: #000; font-family: arial; font-size: 90%; left: -355px; padding: 0; position: fixed; top: 5px; width: 350px; z-index: 999; }
+	#option_wrapper .inner { margin: 0; padding: 0; }
+	#option_wrapper .inner2 { margin: 0; padding: 0 10px; }
+.moor-box input { -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border: solid 1px #000; text-transform: uppercase; }
+.rb-items { float: left; margin: 5px 0; width: 33%; }
+.rb-pattern { float: left; margin: 5px 0; position: relative; width: 33%; }
+.rb-item { cursor: pointer; position: relative; }
+.rb-color { border: 1px solid #D7D7D8; cursor: pointer; height: 20px; line-height: 20px; padding: 0 5px; width: 80px !important; }
+.rb-item:hover { background-position: -22px 0; }
+.pt-select { background-color: #1E1E1E; border: none; text-indent: -9999em; width: 90px; }
+	.pt-select option { border-bottom: solid 1px #D7D7D8; height: 25px; text-indent: -9999em; }
+		.pt-select option:hover { cursor: pointer; }
+.pattern-select { display: none; }
+.pattern-active { border: 1px solid #D7D7D8; cursor: pointer; display: block; height: 28px; padding: 0 10px; width: 70px; }
+.pattern-popup { display: none; margin: 0; padding: 0; width: 100%; }
+.lady_item { background-color: #ffffff; border: solid 1px #dddddd; cursor: pointer; float: left; height: 34px; margin: 0 3px 5px 2px; width: 34px; }
+.shead, .shead h5 { background-color: #F5F5F5; color: #1D1C1B; font-family: arial,serif; font-size: 15px; font-weight: 400; line-height: 15px; margin: 0; padding: 5px; text-align: center; text-transform: uppercase; }
+.rb-items-botton { background-color: #F5F5F5; color: #1D1C1B; font-family: arial,serif; font-size: 15px; font-weight: 400; line-height: 15px; margin: 0; padding: 10px; text-align: right; text-transform: uppercase; }
+.rb-apply { background: #D5D5D5; border: solid 1px #9A9A9A; color: #454545; cursor: pointer; font-size: 100%; margin: 0 10px; padding: 5px 20px; }
+.rb-reset { background: #D5D5D5; border: solid 1px #9A9A9A; color: #454545; cursor: pointer; font-size: 100%; margin: 0 10px; padding: 5px 20px; }
+.cbitems h4 { border-bottom: 1px dotted #eaeaea; color: #313131; font-family: arial,serif; font-size: 100%; font-weight: normal; height: 30px; line-height: 30px; margin: 10px 0 0; padding: 0; text-transform: uppercase; width: 100%; }
+#color-box h3 { border-bottom: 1px dotted #eaeaea; color: #313131; font-family: arial,serif; font-size: 100%; font-weight: normal; height: 30px; line-height: 30px; margin: 0; padding: 0; text-transform: uppercase; width: 100%; }
+	#color-box h3 a { color: #313131; float: left; width: 100%; }
+		#color-box h3 a:focus, #color-box h3 a:hover { text-decoration: none; }
+#color-box .panel { clear: both; margin: 0; width: 100%; }
+h3.pane-toggler { background: url('../images/rainbow/select.png') no-repeat right 11px ; }
+h3.pane-toggler-down { background: url('../images/rainbow/select.png') no-repeat right -30px ; }
+.rb-item select.inputbox { border: 1px solid #D9D9D9; color: #000000; height: auto; margin: 0; padding: 2px; width: 100px; }
+.rtl #color-box h3 { padding-right: 15px; }
+/*pattern background*/
+.pattern1 { background-image: url(../images/patterns/pattern1.png) !important; background-repeat: repeat!important;}
+.pattern2 { background-image: url(../images/patterns/pattern2.png) !important; background-repeat: repeat!important;}
+.pattern3 { background-image: url(../images/patterns/pattern3.png) !important; background-repeat: repeat!important;}
+.pattern4 { background-image: url(../images/patterns/pattern4.png) !important; background-repeat: repeat!important;}
+.pattern5 { background-image: url(../images/patterns/pattern5.png) !important; background-repeat: repeat!important;}
+.pattern6 { background-image: url(../images/patterns/pattern6.png) !important; background-repeat: repeat!important;}
+.pattern7 { background-image: url(../images/patterns/pattern7.png) !important; background-repeat: repeat!important;}
+.pattern8 { background-image: url(../images/patterns/pattern8.png) !important; background-repeat: repeat!important;}
+.pattern9 { background-image: url(../images/patterns/pattern9.png) !important; background-repeat: repeat!important;}
+.pattern10 { background-image: url(../images/patterns/pattern10.png) !important; background-repeat: repeat!important;}
+.pattern11 { background-image: url(../images/patterns/pattern11.png) !important; background-repeat: repeat!important;}
+.pattern12 { background-image: url(../images/patterns/pattern12.png) !important; background-repeat: repeat!important;}
+.pattern13 { background-image: url(../images/patterns/pattern13.png) !important; background-repeat: repeat!important;}
+.pattern14 { background-image: url(../images/patterns/pattern14.png) !important; background-repeat: repeat!important;}
+.pattern15 { background-image: url(../images/patterns/pattern15.png) !important; background-repeat: repeat!important;}
+.pattern16 { background-image: url(../images/patterns/pattern16.png) !important; background-repeat: repeat!important;}

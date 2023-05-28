@@ -1,0 +1,149 @@
+/*Selection*/
+::selection
+{
+    background-color: #F26522;
+    color:#ffffff;
+}
+::-moz-selection
+{
+    background-color: #F26522;
+    color:#ffffff;
+}
+/*Logo text*/
+#zt-logo-text > span span{
+    color: #F26522;
+}
+.zt-product-price div.PricesalesPrice{
+    color: #F26522;
+}
+#zt-top-menu ul li:hover a{
+    color: #F26522 !important;
+}
+/*Virtuemart*/
+span.quantity-controls input.quantity-controls{
+    background-color: #F26522;
+}
+/*Detail*/
+article > time{
+    background-color: #F26522;
+}
+.pagination ul li a {
+    background-color: transparent !important;
+    color: #7E7E7E !important;
+}
+.zt-contact .icon{
+    background-color: #F26522;
+}
+span.zt-icon-cart,
+.zt-price-inner .addtocart-button{
+    background-image: url("../images/scolor2/cart-icon.png");
+}
+/*Button*/
+.big-btn,
+a.details,
+.back-to-category a,
+a.vm-button-correct,
+a.continue_link,
+.productdetails span.addtocart-button input.addtocart-button,
+#facebox .popup > div > div > a,
+button,
+.button,
+input.button,
+span.button,
+button.button,
+div.button,
+input[type="submit"],
+input[type="button"],
+.readon,
+.pagenav-prev a,
+.pagenav-next a,
+.readon,
+.pagination ul li a,
+.pagination ul li span{
+    background-color: #F26522;
+}
+#fancybox-content a,
+div.desc_part .zt-action input.addtocart-button:hover, div.desc_part .zt-action input.addtocart-button:active, div.desc_part .zt-action input.addtocart-button:focus, div.desc_part .zt-action a.product-details:hover, div.desc_part .zt-action a.product-details:active, div.desc_part .zt-action a.product-details:focus{
+    background-color: #F26522;
+}
+
+.zt-product-action input.addtocart-button,
+.zt-product-action input.addtocart-button,
+.zt-product-action input.addtocart-button{
+    background-color: #F26522;
+}
+
+/*Highlight*/
+#zt-highlight .option-set li a:hover,
+#zt-highlight .option-set li a:focus,
+#zt-highlight .option-set li a:active,
+#zt-highlight .option-set li a.selected{
+    background-color: #F26522 !important;
+}
+/*Top Icon*/
+.bkg-control-down,
+.bkg-control-up{
+    background: url('../images/scolor2/icon-top.png') no-repeat 0 -30px;}
+.bkg-control-up {
+    background-position:  0 0;
+}
+/*MegaMenu*/
+.zt-navigation{
+    background-color: #F26522;
+}
+#menusys_mega li.hover > a,
+#menusys_mega li a.active,
+#menusys_mega li a.active:hover,
+#menusys_mega li a.active:active,
+#menusys_mega li a.active:focus{
+    color: #F26522 !important;
+}
+#menusys_mega .megacol ul li a:hover,
+#menusys_mega .megacol ul li a:active,
+#menusys_mega .megacol ul li a:focus,
+#menusys_mega .megacol ul li a.active,
+#menusys_mega .megacol ul li a.active:hover,
+#menusys_mega .megacol ul li a.active:active,
+#menusys_mega .megacol ul li a.active:focus{
+   color: #F26522;
+}
+#menusys_mega .megacol ul li a:hover,
+#menusys_mega .megacol ul  li a:active,
+#menusys_mega .megacol ul  li a:focus,
+#menusys_mega .megacol ul  li a.active,
+#menusys_mega .megacol ul  li a.active:hover,
+#menusys_mega .megacol ul  li a.active:active,
+#menusys_mega .megacol ul  li a.active:focus {
+    color: #F26522;}
+ul.nav-drilldown li.active>a,
+ul.nav-drilldown li a:hover{
+    background-color: #2F3D60;
+}
+/*Icon search, cart*/
+/*Tags*/
+.k2TagCloudBlock a{
+    background: #F26522 !important;
+}
+/*Calendar*/
+.k2CalendarBlock table.calendar tr td.calendarToday{
+    background: #F26522;
+}
+.category-view .category:hover h2{
+    background-color: #F26522;
+}
+/*Go to top*/
+#gototop{
+    background-color: #F26522;
+}
+#gototop span{
+    background-color: #2F3D60;
+}
+/*Product detail*/
+.productdetails-tabs .nav-tabs > .active > a,
+.productdetails-tabs .nav-tabs > .active > a:hover{
+    color: #2F3D60 !important;
+}
+/*Logo Scroller*/
+div.pagenave > button {
+    background: url("../images/scolor2/scroller-arrows.png") no-repeat scroll 0 0 transparent;
+}

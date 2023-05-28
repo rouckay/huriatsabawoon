@@ -1,0 +1,20 @@
+/*------------------------------------------------------------------------
+* Copyright (c) 2008-2013 ZooTemplate. All Rights Reserved.
+* @license - Copyrighted Commercial Software
+* Author: ZooTemplate
+* Websites:  http://www.zootemplate.com
+-------------------------------------------------------------------------*/
+
+/*Selection*/
+::selection
+{
+background-color: #F75352;
+color:#ffffff;
+}
+::-moz-selection
+{
+background-color: #F75352;
+color:#ffffff;
+} 
+
+
